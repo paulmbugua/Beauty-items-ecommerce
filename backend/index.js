@@ -12,7 +12,7 @@ app.use(cors());
 app.use('/upload/images', express.static(path.join(__dirname, 'upload', 'images')));
 
 // Database connection with MongoDB
-mongoose.connect("mongodb+srv://paulpep2002:Turbo4040*@ecommerce.c4pxz.mongodb.net/ecommerce?retryWrites=true&w=majority&appName=ecommerce")
+mongoose.connect("mongodb+srv://yourusername:yourpassword@ecommerce.c4pxz.mongodb.net/ecommerce?retryWrites=true&w=majority&appName=ecommerce")
     .then(() => {
         console.log("Connected to MongoDB");
     })
